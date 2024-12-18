@@ -8,7 +8,7 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-title                    : "Mian Yang"
+title                    : "Mian Yang's Personal Homepage"
 title_separator          : "-"
 name                     : &name "Mian Yang"
 description              : &description "personal description"
@@ -24,9 +24,9 @@ author:
   avatar           : "profile.png"
   name             : "Mian Yang"
   pronouns         : # example: "she/her"  
-  bio              : #"Short biography for the left-hand sidebar"
+  bio              : "Rutgers University"
   location         : "New Jersey, USA"
-  employer         : "Rutgers University"
+  employer         : #"Rutgers University"
   uri              : # URL
   email            : "mian.yang@rutgers.edu" 
 
