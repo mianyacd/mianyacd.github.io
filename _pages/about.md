@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-I am a third-year PhD candidate at Rutgers University, working under the guidance of [Professor Vijay Atluri](https://sites.rutgers.edu/vijay-atluri/). My research focuses on advancing knowledge in **Access Control**, **Privacy Analysis**, and **Graph Analysis**, with the goal of addressing critical challenges in data security and privacy. 
+I am a third-year PhD candidate at Rutgers University, working under the guidance of [Professor Vijay Atluri](https://sites.rutgers.edu/vijay-atluri/). My research integrates **Access Control**, **Privacy Analysis**, and **Graph Analysis**, with the goal of developing AI-driven frameworks that leverage Large Language Models (LLMs) to interpret natural language policies and ensure regulatory compliance in data security environments. 
 
 
 Publication
