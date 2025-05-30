@@ -9,6 +9,10 @@ redirect_from:
 
 I am a third-year PhD candidate at Rutgers University, working under the guidance of [Professor Vijay Atluri](https://sites.rutgers.edu/vijay-atluri/). My research integrates **Access Control**, **Privacy Analysis**, and **Graph Analysis**, with the goal of developing AI-driven frameworks that leverage **Large Language Models (LLMs)** to interpret natural language policies and ensure regulatory compliance in data security environments. 
 
+News
+======
+*Our paper* "Extraction of Machine-Enforceable ABAC Policies from Natural Language Text using LLM Knowledge Distillation" has been accepted to **SACMAT 2025** (July 2025).
+*Our paper* "Automated Privacy Policy Analysis using Large Language Models" has been accepted to **DBSec 2025** (June 2025).
 
 Publication
 =======
