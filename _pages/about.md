@@ -12,6 +12,7 @@ I am a third-year PhD candidate at Rutgers University, working under the guidanc
 News
 ======
 *Our paper* "Extraction of Machine-Enforceable ABAC Policies from Natural Language Text using LLM Knowledge Distillation" has been accepted to **SACMAT 2025** (July 2025).
+
 *Our paper* "Automated Privacy Policy Analysis using Large Language Models" has been accepted to **DBSec 2025** (June 2025).
 
 Publication
