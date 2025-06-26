@@ -13,10 +13,11 @@ News
 ======
 *Our paper* "Extraction of Machine-Enforceable ABAC Policies from Natural Language Text using LLM Knowledge Distillation" has been accepted to **SACMAT 2025** (July 2025).
 
-*Our paper* "Automated Privacy Policy Analysis using Large Language Models" has been accepted to **DBSec 2025** (June 2025).
 
 Publication
 =======
+**Yang, M.**, Atluri, V., Sural, S., Kundu, A. (2025). Automated Privacy Policy Analysis Using Large Language Models. In: Katsikas, S., Shafiq, B. (eds) Data and Applications Security and Privacy XXXIX. DBSec 2025. Lecture Notes in Computer Science, vol 15722. Springer, Cham. https://doi.org/10.1007/978-3-031-96590-6_2
+
 **Yang, M.**, Atluri, V., Sural, S., Vaidya, J. (2024). A Graph-Based Framework for ABAC Policy Enforcement and Analysis. In: Ferrara, A.L., Krishnan, R. (eds) Data and Applications Security and Privacy XXXVIII. DBSec 2024. Lecture Notes in Computer Science, vol 14901. Springer, Cham. https://doi.org/10.1007/978-3-031-65172-4_1 [Best Student Paper Award](https://dbsec2024.github.io/best.html) 🏆
 
 
