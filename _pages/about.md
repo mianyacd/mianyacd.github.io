@@ -11,7 +11,7 @@ I am a fourth-year PhD candidate at Rutgers University, working under the guidan
 
 News
 ======
-Catch me in Atlanta this October—I’ll be presenting at the INFORMS 2025 Annual Meeting 🎤.
+[2025.10] Catch me in Atlanta this October—I’ll be presenting at the **INFORMS 2025 Annual Meeting** 🎤.
 
 
 
