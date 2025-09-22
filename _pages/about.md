@@ -13,7 +13,7 @@ News
 ======
 - [2025.10] Catch me in Atlanta this October—I’ll be presenting at the **INFORMS 2025 Annual Meeting** 🎤.
 - [2025.05] *Our paper* "Extraction of Machine Enforceable ABAC Policies from Natural Language Text using LLM Knowledge Distillation" accepted to **SACMAT 2025**, New York. 🗽
-- [2025.05] *Our paper* "Automated Privacy Policy Analysis using Large Language Models" accepted for presentation at **DBSec 2025**, Gjøvik, Norway. 🇳🇴
+- [2025.05] *Our paper* "Automated Privacy Policy Analysis using Large Language Models" accepted to **DBSec 2025**, Gjøvik, Norway. 🇳🇴
 - [2024.07] *Our paper* "A Graph-Based Framework for ABAC Policy Enforcement and Analysis" received the **Best Student Paper Award** at **DBSec 2024**, San Jose, CA .🎉
 - [2024.05] *Our paper* "A Graph-Based Framework for ABAC Policy Enforcement and Analysis" accepted to **DBSec 2024**, San Jose, CA.🌉
 
