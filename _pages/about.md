@@ -11,6 +11,7 @@ I am a fourth-year PhD candidate at Rutgers University, working under the guidan
 
 News
 ======
+- [2025.11] Successfully defended my dissertation proposal.
 - [2025.10] Catch me in Atlanta this October—I’ll be presenting at the **INFORMS 2025 Annual Meeting** 🎤.
 - [2025.05] *Our paper* "Extraction of Machine Enforceable ABAC Policies from Natural Language Text using LLM Knowledge Distillation" accepted to **SACMAT 2025**, New York. 🗽
 - [2025.05] *Our paper* "Automated Privacy Policy Analysis using Large Language Models" accepted to **DBSec 2025**, Gjøvik, Norway. 🇳🇴
