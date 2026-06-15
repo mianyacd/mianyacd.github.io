@@ -11,6 +11,8 @@ I am a fourth-year PhD candidate at Rutgers University, working under the guidan
 
 News
 ======
+- [2026.08] I will give a **TREOs talk** at **AMCIS 2026**, titled "Privacy-Aware Access Governance: Aligning Access Decisions with Organizational Privacy Commitments". 🎤
+- [2026.06] Honored to serve as **Publicity Chair** for [**WPES 2026**](https://wpes2026.github.io/organization.html). 🎉
 - [2025.11] Successfully defended my dissertation proposal.
 - [2025.10] Catch me in Atlanta this October—I’ll be presenting at the **INFORMS 2025 Annual Meeting** 🎤.
 - [2025.05] *Our paper* "Extraction of Machine Enforceable ABAC Policies from Natural Language Text using LLM Knowledge Distillation" accepted to **SACMAT 2025**, New York. 🗽
