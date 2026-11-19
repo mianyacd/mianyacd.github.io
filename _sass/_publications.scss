@@ -1,0 +1,91 @@
+/* ==========================================================================
+   Publication list (homepage), rendered from _data/publications.yml
+   ========================================================================== */
+
+.pubs__heading {
+  margin: 1.25em 0 0.75em;
+  padding-bottom: 0;
+  font-size: $type-size-6;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: $gray;
+  border-bottom: none;
+}
+
+.pubs__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.pub {
+  display: flex;
+  align-items: flex-start;
+  margin: 0 0 1.1em;
+  padding: 0;
+}
+
+.pub__badge {
+  flex: 0 0 6.75em;
+  margin: 0.2em 0.9em 0 0;
+  padding: 0.25em 0.4em;
+  font-size: $type-size-6;
+  font-weight: bold;
+  text-align: center;
+  white-space: nowrap;
+  color: mix(#000, $link-color, 30%);
+  background: mix(#fff, $link-color, 88%);
+  border: 1px solid mix(#fff, $link-color, 60%);
+  border-radius: 4px;
+}
+
+.pub__badge--pending {
+  color: mix(#000, $warning-color, 45%);
+  background: mix(#fff, $warning-color, 88%);
+  border-color: mix(#fff, $warning-color, 55%);
+}
+
+.pub__body {
+  flex: 1;
+  min-width: 0;
+  font-size: 0.95em;
+  line-height: 1.5;
+}
+
+.pub__title {
+  font-weight: bold;
+
+  a {
+    color: $text-color;
+    text-decoration: none;
+
+    &:hover {
+      color: $link-color;
+      text-decoration: underline;
+    }
+  }
+}
+
+.pub__status {
+  font-style: italic;
+  color: mix(#000, $warning-color, 40%);
+}
+
+.pub__link {
+  display: inline-block;
+  margin-left: 0.25em;
+  padding: 0 0.45em;
+  font-size: $type-size-6;
+  line-height: 1.6;
+  text-decoration: none;
+  border: 1px solid $light-gray;
+  border-radius: 3px;
+
+  &:hover {
+    border-color: $link-color;
+  }
+}
+
+.pub__award {
+  font-weight: bold;
+}

@@ -1,0 +1,32 @@
+{%- comment -%}
+  Renders _data/publications.yml. Kept free of indentation and blank lines
+  on purpose: the output lands inside a Markdown page, and kramdown would
+  turn indented lines into code blocks.
+{%- endcomment -%}
+{%- assign me = "Yang, M." -%}
+{%- assign sections = "journal:Journal Articles|conference:Conference Papers" | split: "|" -%}
+<div class="pubs">
+{%- for s in sections -%}
+{%- assign key = s | split: ":" | first -%}
+{%- assign heading = s | split: ":" | last -%}
+{%- assign papers = site.data.publications[key] -%}
+{%- if papers and papers.size > 0 -%}
+<h3 class="pubs__heading">{{ heading }}</h3>
+<ul class="pubs__list">
+{%- for p in papers -%}
+<li class="pub">
+<span class="pub__badge{% if p.status %} pub__badge--pending{% endif %}">{{ p.short }}</span>
+<div class="pub__body">
+<div class="pub__title">{% if p.doi %}<a href="https://doi.org/{{ p.doi }}">{{ p.title }}</a>{% else %}{{ p.title }}{% endif %}</div>
+<div class="pub__authors">{% for a in p.authors %}{% if a == me %}<strong>{{ a }}</strong>{% else %}{{ a }}{% endif %}{% unless forloop.last %}, {% endunless %}{% endfor %}</div>
+<div class="pub__venue"><em>{{ p.venue }}</em>{% if p.details %}, {{ p.details }}{% endif %}{% if p.year %}, {{ p.year }}{% endif %}.{% if p.status %} <span class="pub__status">{{ p.status }}</span>{% endif %}{% if p.doi %} <a class="pub__link" href="https://doi.org/{{ p.doi }}">DOI</a>{% endif %}{% if p.pdf %} <a class="pub__link" href="{{ p.pdf }}">PDF</a>{% endif %}</div>
+{%- if p.award -%}
+<div class="pub__award">🏆 {% if p.award_url %}<a href="{{ p.award_url }}">{{ p.award }}</a>{% else %}{{ p.award }}{% endif %}</div>
+{%- endif -%}
+</div>
+</li>
+{%- endfor -%}
+</ul>
+{%- endif -%}
+{%- endfor -%}
+</div>

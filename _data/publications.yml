@@ -1,0 +1,51 @@
+# Publications — the single place to edit.
+# The homepage renders this file via _includes/publication-list.html.
+#
+# To add a paper, copy an entry, put it at the TOP of its section (newest first)
+# and fill in the fields:
+#   title    (required)
+#   authors  (required) list; "Yang, M." is bolded automatically
+#   venue    (required) full journal / proceedings name
+#   short    (required) badge text, e.g. "SACMAT '25"
+#   details  optional: volume, pages, publisher ...
+#   year     optional
+#   doi      optional: just the DOI, e.g. 10.1145/3734436.3734447
+#   pdf      optional: link to a PDF (e.g. /files/xxx.pdf)
+#   status   optional: e.g. "Under review"; shows the badge in amber. Delete once published.
+#   award    optional: e.g. "Best Student Paper Award"
+#   award_url optional
+
+journal:
+  - title: "Modeling, Enforcement, and Analysis of ABAC Policies Using a Graph-based Framework"
+    authors: ["Yang, M.", "Atluri, V.", "Sural, S.", "Vaidya, J."]
+    venue: "Computers & Security"
+    details: "Elsevier"
+    short: "COSE"
+    status: "Under review · minor revision (round 2)"
+
+conference:
+  - title: "Extraction of Machine Enforceable ABAC Policies from Natural Language Text using LLM Knowledge Distillation"
+    authors: ["Yang, M.", "Atluri, V.", "Sural, S.", "Kundu, A."]
+    venue: "Proceedings of the 30th ACM Symposium on Access Control Models and Technologies (SACMAT '25)"
+    details: "ACM, pp. 157–168"
+    year: 2025
+    short: "SACMAT '25"
+    doi: "10.1145/3734436.3734447"
+
+  - title: "Automated Privacy Policy Analysis Using Large Language Models"
+    authors: ["Yang, M.", "Atluri, V.", "Sural, S.", "Kundu, A."]
+    venue: "Data and Applications Security and Privacy XXXIX (DBSec 2025)"
+    details: "LNCS vol. 15722, Springer, pp. 23–43"
+    year: 2025
+    short: "DBSec '25"
+    doi: "10.1007/978-3-031-96590-6_2"
+
+  - title: "A Graph-Based Framework for ABAC Policy Enforcement and Analysis"
+    authors: ["Yang, M.", "Atluri, V.", "Sural, S.", "Vaidya, J."]
+    venue: "Data and Applications Security and Privacy XXXVIII (DBSec 2024)"
+    details: "LNCS vol. 14901, Springer, pp. 3–23"
+    year: 2024
+    short: "DBSec '24"
+    doi: "10.1007/978-3-031-65172-4_1"
+    award: "Best Student Paper Award"
+    award_url: "https://dbsec2024.github.io/best.html"
