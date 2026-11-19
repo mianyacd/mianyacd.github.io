@@ -1,0 +1,48 @@
+# Academic footprints, shown on /footprints/ (map + list).
+#
+# To add a stop, copy an entry to the TOP (newest first) and fill in:
+#   event   (required) e.g. "SACMAT 2025"
+#   date    (required) e.g. "Jul 2025"
+#   place   (required) e.g. "Stony Brook, NY, USA"
+#   lat/lng (required) coordinates. In Google Maps, right-click the spot;
+#           the first line of the menu is "lat, lng".
+#   note    optional: what you did there (talk title, paper, role ...)
+#   award   optional
+#   url     optional: conference website
+
+- event: "AMCIS 2026"
+  date: "Aug 2026"
+  place: "Reno, NV, USA"
+  lat: 39.5296
+  lng: -119.8138
+  note: "TREOs talk: Privacy-Aware Access Governance: Aligning Access Decisions with Organizational Privacy Commitments"
+
+- event: "INFORMS 2025 Annual Meeting"
+  date: "Oct 2025"
+  place: "Atlanta, GA, USA"
+  lat: 33.7490
+  lng: -84.3880
+  note: "Presentation"
+
+- event: "SACMAT 2025"
+  date: "Jul 2025"
+  place: "Stony Brook, NY, USA"
+  lat: 40.9257
+  lng: -73.1409
+  note: "Paper: Extraction of Machine Enforceable ABAC Policies from Natural Language Text using LLM Knowledge Distillation"
+
+- event: "DBSec 2025"
+  date: "Jun 2025"
+  place: "Gjøvik, Norway"
+  lat: 60.7957
+  lng: 10.6916
+  note: "Paper: Automated Privacy Policy Analysis Using Large Language Models"
+
+- event: "DBSec 2024"
+  date: "Jul 2024"
+  place: "San Jose, CA, USA"
+  lat: 37.3382
+  lng: -121.8863
+  note: "Paper: A Graph-Based Framework for ABAC Policy Enforcement and Analysis"
+  award: "Best Student Paper Award"
+  url: "https://dbsec2024.github.io/best.html"
