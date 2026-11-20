@@ -1,0 +1,39 @@
+# Professional service, shown on /service/.
+# Sections render in this order; items within a section newest first.
+#
+# Item fields:
+#   role   optional: e.g. "Publicity Chair" (omit for plain reviewer entries)
+#   venue  (required) full name, with acronym in parentheses
+#   years  (required) e.g. "2026" or "2025–Present"
+#   url    optional
+
+- section: "Organizing Committee"
+  items:
+    - role: "Publicity Chair"
+      venue: "ACM Workshop on Privacy in the Electronic Society (WPES 2026)"
+      years: "2026"
+      url: "https://wpes2026.github.io/organization.html"
+
+- section: "Journal Reviewer"
+  items:
+    - venue: "ACM Transactions on Internet Technology (TOIT)"
+      years: "2026"
+    - venue: "IEEE Transactions on Dependable and Secure Computing (TDSC)"
+      years: "2025–Present"
+
+- section: "Conference & Workshop Reviewer"
+  items:
+    - venue: "AAAI Workshop on Artificial Intelligence for Cyber Security (AICS 2027)"
+      years: "2027"
+    - venue: "International Conference on Information Systems (ICIS 2026)"
+      years: "2026"
+    - venue: "ACM Symposium on Access Control Models and Technologies (SACMAT)"
+      years: "2025–Present"
+    - venue: "International Conference on Information and Communications Security (ICICS 2024)"
+      years: "2024"
+
+- section: "University Service"
+  items:
+    - role: "Contributor"
+      venue: "Rutgers University’s designation as an NSA/DHS National Center of Academic Excellence in Cyber Research (CAE-R)"
+      years: "Mar 2025–2030"

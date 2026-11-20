@@ -1,0 +1,60 @@
+/* ==========================================================================
+   CV-style entry lists (/teaching/, /service/), data in _data/*.yml
+   ========================================================================== */
+
+.entries {
+  margin: 0 0 1em;
+  padding: 0;
+  list-style: none;
+}
+
+.entry {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0.6em 0;
+  border-bottom: 1px solid $border-color;
+  font-size: 0.95em;
+  line-height: 1.5;
+
+  &:last-child {
+    border-bottom: none;
+  }
+}
+
+.entry__main {
+  flex: 1;
+  min-width: 0;
+}
+
+.entry__title {
+  font-weight: bold;
+}
+
+.entry__meta,
+.entry__note {
+  color: $gray;
+}
+
+.entry__when {
+  flex: none;
+  margin-left: 1.5em;
+  font-size: $type-size-6;
+  font-weight: bold;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  white-space: nowrap;
+  color: $gray;
+}
+
+@include breakpoint(max-width $medium) {
+  .entry {
+    flex-direction: column;
+  }
+
+  .entry__when {
+    order: -1;
+    margin-left: 0;
+  }
+}

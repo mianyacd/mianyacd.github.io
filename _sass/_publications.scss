@@ -2,7 +2,8 @@
    Publication list (homepage), rendered from _data/publications.yml
    ========================================================================== */
 
-.pubs__heading {
+.pubs__heading,
+.entries__heading {
   margin: 1.25em 0 0.75em;
   padding-bottom: 0;
   font-size: $type-size-6;

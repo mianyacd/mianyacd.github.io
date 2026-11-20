@@ -1,0 +1,22 @@
+---
+title: "Teaching"
+permalink: /teaching/
+author_profile: true
+---
+
+{% comment %} Data lives in _data/teaching.yml {% endcomment %}
+
+<p>Courses I have taught at Rutgers Business School.</p>
+
+<ul class="entries">
+{% for c in site.data.teaching %}
+<li class="entry">
+<div class="entry__main">
+<div class="entry__title">{{ c.title }}</div>
+<div class="entry__meta">{{ c.code }}{% if c.role %} · {{ c.role }}{% endif %}</div>
+{% if c.note %}<div class="entry__note">{{ c.note }}</div>{% endif %}
+</div>
+<span class="entry__when">{{ c.term }}</span>
+</li>
+{% endfor %}
+</ul>

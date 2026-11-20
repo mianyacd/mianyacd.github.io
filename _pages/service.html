@@ -1,0 +1,21 @@
+---
+title: "Service"
+permalink: /service/
+author_profile: true
+---
+
+{% comment %} Data lives in _data/service.yml {% endcomment %}
+
+{% for group in site.data.service %}
+<h3 class="entries__heading">{{ group.section }}</h3>
+<ul class="entries">
+{% for s in group.items %}
+<li class="entry">
+<div class="entry__main">
+{% if s.role %}<strong>{{ s.role }}</strong>, {% endif %}{% if s.url %}<a href="{{ s.url }}">{{ s.venue }}</a>{% else %}{{ s.venue }}{% endif %}
+</div>
+<span class="entry__when">{{ s.years }}</span>
+</li>
+{% endfor %}
+</ul>
+{% endfor %}

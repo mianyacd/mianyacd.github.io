@@ -1,0 +1,18 @@
+# Courses, shown on /teaching/. Newest first.
+#
+# Fields:
+#   title  (required) course name
+#   code   (required) e.g. "33:136:370"
+#   term   (required) e.g. "Fall 2026"
+#   role   optional: e.g. "Instructor" or "Teaching Assistant"
+#   note   optional: one short line, e.g. "Newly developed course"
+
+- title: "Special Topic: Relational Database & Web Applications"
+  code: "33:136:440"
+  term: "Fall 2026"
+  role: "Instructor"
+
+- title: "Management Information Systems"
+  code: "33:136:370"
+  term: "Summer 2026"
+  role: "Instructor"
